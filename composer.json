@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "a configuration variables as Entity bundle",
     "keywords": ["variable", "symfony2", "bundle", "ecedi"],
-    "homepage": "http://github.com/ecedi/vars-bundle",
+    "homepage": "http://github.com/ecedi/vars-bundl",
     "license": "MIT",
 
     "authors": [
@@ -27,13 +27,11 @@
         "psr-0": {
             "Ecedi\\VarsBundle": ""
         }
-    },
-
-    "target-dir": "ecedi/vars-bundle",
-    
+    },    
     "extra": {
         "branch-alias": {
-            "dev-master": "devel"
+            "dev-master": "stable",
+            "dev-devel": "devel",
         }
     }
 }
