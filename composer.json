@@ -31,7 +31,7 @@
     "extra": {
         "branch-alias": {
             "dev-master": "stable",
-            "dev-devel": "devel",
+            "dev-devel": "devel"
         }
     }
 }
