@@ -8,7 +8,7 @@ this is a simple bundle with no UI, (API only) that replicate CMS like Drupal or
 
 	{
 		"require": {
-			"ecedi/vars-bundle": "@stable",
+			"ecedi/vars-bundle": "dev-master",
 		},
 		"repositories": [
 		{
