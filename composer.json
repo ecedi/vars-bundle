@@ -1,0 +1,39 @@
+{
+    "name": "ecedi/vars-bundle",
+    "type": "symfony-bundle",
+    "description": "a configuration variables as Entity bundle",
+    "keywords": ["variable", "symfony2", "bundle", "ecedi"],
+    "homepage": "http://github.com/ecedi/vars-bundle",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Ecedi Team",
+            "homepage": "http://ecedi.fr"
+        },
+        {
+            "name": "Symfony2 Community",
+            "homepage": "http://github.com/ecedi/vars-bundle/graphs/contributors"
+        }
+    ],
+
+    "require": {
+        "php":                      ">=5.3.3",
+        "symfony/framework-bundle": "~2.0",
+        "twig/twig":                "~1.5"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Ecedi\\VarsBundle": ""
+        }
+    },
+
+    "target-dir": "ecedi/vars-bundle",
+    
+    "extra": {
+        "branch-alias": {
+            "dev-master": "devel"
+        }
+    }
+}
