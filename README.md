@@ -1,4 +1,4 @@
-# ecedi/vars-bundle [Agence Ecedi](http://ecedi.fr)
+# ecedi/vars-bundle by [Agence Ecedi](http://ecedi.fr)
 
 this is a simple bundle with no UI, (API only) that replicate CMS like Drupal or Wordpress capacity to store configuration in Database.
 

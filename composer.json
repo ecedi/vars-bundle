@@ -25,7 +25,8 @@
     "autoload": {
         "psr-0": {
             "Ecedi\\VarsBundle": ""
-        }
+        },
+    "target-dir": "Ecedi/VarsBundle",
     },    
     "extra": {
         "branch-alias": {
