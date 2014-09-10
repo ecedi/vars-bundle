@@ -6,6 +6,7 @@ this is a simple bundle with no UI, (API only) that replicate CMS like Drupal or
 
 ### edit your composer.json file and add
 
+```json
 	{
 		"require": {
 			"ecedi/vars-bundle": "dev-master",
@@ -17,9 +18,11 @@ this is a simple bundle with no UI, (API only) that replicate CMS like Drupal or
 		}
 		]
 	}
+```
 
 ### Add VarsBundle to your application kernel
 
+```php
 	// app/AppKernel.php
 	public function registerBundles()
 	{
@@ -29,15 +32,18 @@ this is a simple bundle with no UI, (API only) that replicate CMS like Drupal or
 			// ...
 		);
 	}
+```
 
 ### update your schema
 
+```
 	app/console doctrine:schema:update --force
-
+```
 
 ## Usage
 
-
+```php
 	$vm = $container->get('ecedi.vars.variable_manager'):
 	$config = $vm->get('my.parameter', 'default_value');
 	$vm->set('my.parameter', 'value');
+```
